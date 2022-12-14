@@ -11,3 +11,5 @@ This is a project aimed at helping the blind with eyes.
 
 
 [//]: # (Code Lord, Python is suitable for this project)
+<!-- This section is for reference of what is actually ment to be built -->
+[//]: # (https://www.iamhable.com/blog/6-of-the-best-apps-for-people-with-blindness-or-visual-impairment)
