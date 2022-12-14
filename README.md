@@ -7,6 +7,15 @@ This is a project aimed at helping the blind with eyes.
 * The app also has features to help the user communicate and interact with others, such as text-to-speech and speech-to-text tools, as well as tools for sending and receiving messages.
 
 
+## Ingredients
+* FIrebase(For AI based dictionary)
+* OpenCv (Face Recognition)
+* Google Bangla Speech to text API
+* Google Bangla Text to speech API
+* Google Location API
+* etc
+
+
 
 
 
