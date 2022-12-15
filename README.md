@@ -8,6 +8,11 @@ This is a project aimed at helping the blind by providing audio descriptions of 
 
 
 ## Ingredients
+* Microsoft Azure Computer Vision API (automatically generate image descriptions)
+* OpenCV library for Python ( analyze images and extract information from them)
+* pyttsx3 library to convert text to speech
+* Google Maps API to provide navigation assistance.
+* braille output for text-based information
 * FIrebase(For AI based dictionary)
 * OpenCv (Face Recognition)
 * Google Bangla Speech to text API
