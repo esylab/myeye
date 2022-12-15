@@ -1,5 +1,5 @@
 # myeye
-This is a project aimed at helping the blind with eyes.
+This is a project aimed at helping the blind by providing audio descriptions of images, converting text to speech, or providing navigation assistance.
 
 ## Features of myeye.
 * First and foremost, it is intended to include features to help the user navigate and orient themselves in their environmen. This could include features like GPS and maps to help the user know where they are, as well as tools to help them identify nearby objects and obstacles.
