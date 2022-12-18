@@ -3,6 +3,9 @@
 // Exports the router.
 
 
+// The controller methods (e.g. describeSurroundings, playAudio, etc.) will handle the requests made to these routes and return the appropriate data or perform the necessary actions.
+
+
 
 
 const express = require('express');
