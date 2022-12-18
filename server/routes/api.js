@@ -23,3 +23,12 @@ router.post('/decrease-volume', blindAssistantController.decreaseVolume);
 
 module.exports = router;
 
+
+router.post('/speak', (req, res) => {
+  const text = req.body.text;
+
+  // Implement the text-to-speech function here, using a text-to-speech engine or API
+
+  res.send({ message: 'Text spoken successfully' });
+});
+
