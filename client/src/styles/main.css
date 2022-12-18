@@ -1,0 +1,26 @@
+/* Add a gradient background to the body */
+body {
+  background: linear-gradient(to bottom, #0088cc, #004466);
+}
+
+/* Add some rounded corners to the buttons */
+button {
+  border-radius: 5px;
+}
+
+/* Change the font of the buttons on hover */
+button:hover {
+  font-weight: bold;
+}
+
+/* Add some padding and a border to the buttons */
+button {
+  padding: 15px 32px;
+  border: 2px solid #004466;
+}
+
+/* Change the color of the button text and border on hover */
+button:hover {
+  color: #004466;
+  border-color: #0088cc;
+}
