@@ -32,3 +32,12 @@ router.post('/speak', (req, res) => {
   res.send({ message: 'Text spoken successfully' });
 });
 
+
+router.post('/navigate', (req, res) => {
+  const { latitude, longitude } = req.body;
+
+  // Implement the navigation function here, using a GPS or mapping API
+
+  res.send({ message: 'Navigation initiated successfully' });
+});
+
