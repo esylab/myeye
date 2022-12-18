@@ -17,6 +17,9 @@
     "express": "^4.17.1",
     "mongoose": "^5.10.9",
     "nodemon": "^2.0.6"
+    "@google/maps": "^4.3.0",
+    "mapbox-sdk": "^2.1.2",
+    "geojson": "^0.5.0"
   },
   "devDependencies": {
     "react": "^16.13.1",
