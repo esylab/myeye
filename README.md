@@ -7,6 +7,13 @@ This is a project aimed at helping the blind by providing audio descriptions of 
 * Text-to-speech functionality for reading web content aloud
 * Controls for adjusting audio volume and speed
 
+
+## Built With
+* React - A JavaScript library for building user interfaces
+* Node.js - A JavaScript runtime built on Chrome's V8 JavaScript engine
+* Express - A fast, minimalist web framework for Node.js
+* MongoDB - A document-oriented database
+
 ## Requirements
 Node.js
 npm (comes with Node.js)
