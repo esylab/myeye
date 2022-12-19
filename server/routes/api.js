@@ -41,3 +41,21 @@ router.post('/navigate', (req, res) => {
   res.send({ message: 'Navigation initiated successfully' });
 });
 
+
+// src/routes/api.js
+
+const navigation = require('../services/navigation');
+
+router.post('/navigate', (req, res) => {
+  const { latitude, longitude } = req.body;
+  navigation.navigate(latitude, longitude, (err, response) => {
+    if (err) {
+      // Handle the error
+    } else {
+      // Send the response to the client
+      res.send(response);
+    }
+  });
+});
+
+
