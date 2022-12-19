@@ -59,3 +59,12 @@ router.post('/navigate', (req, res) => {
 });
 
 
+// This route will receive the command from the voice commands component, initiate the command function, and send a response to the client indicating that the command was received successfully. You can then implement the actual command function as needed to meet your specific needs.
+router.post('/command', (req, res) => {
+  const { command } = req.body;
+
+  // Implement the command function here
+
+  res.send({ message: 'Command received successfully' });
+});
+
